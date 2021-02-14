@@ -29,7 +29,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 ## 💻 Projeto
 
-O dev.finances é uma aplicação de controle financeiro, onde é possível cadastrar e excluir transações e ver o saldo de entrada e saída 💰 em tempo real, tudo salvo na memória do seu navegador favorito!
+O dev.finances é uma aplicação de controle financeiro, onde é possível cadastrar e excluir transações e ver o saldo de entrada e saída 💰 em tempo real, tudo salvo na memória do seu navegador favorito!.
 
 ## 🔖 Layout
 
@@ -39,8 +39,8 @@ Você pode visualizar o layout do projeto através [desse link](https://www.figm
 
 Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE.md) para mais detalhes.
 
-Biblioteca que foi utilizada para a funcionalidade de exportação para Excel [Table to Excel 2](https://github.com/linways/table-to-excel/tree/master)
+Biblioteca que foi utilizada para a funcionalidade de exportação para Excel [Table to Excel 2.](https://github.com/linways/table-to-excel/tree/master)
 
 ---
 
-Feito com durante a Maratona Discover, evento oferecido pela [Rocketseat](https://rocketseat.com.br)
+Feito com durante a Maratona Discover, evento oferecido pela [Rocketseat.](https://rocketseat.com.br)
