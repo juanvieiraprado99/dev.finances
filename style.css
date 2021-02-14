@@ -68,6 +68,7 @@ button {
     background: var(--green);
     
     padding: 0;
+    margin: 0.5rem;
 
     border-radius: 0.25rem;
 
@@ -99,6 +100,12 @@ button:hover {
 
 .button.cancel:hover {
     opacity: 1;
+}
+
+button#button-excel,
+button#button-dados {
+    width: 50%;
+    margin-left: 25%;
 }
 
 /* Header ================================ */
@@ -216,6 +223,7 @@ td.expense {
     color: var(--red);
     
 }
+
 
 
 /* Modal ================================ */

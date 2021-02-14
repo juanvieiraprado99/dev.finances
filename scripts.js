@@ -203,6 +203,14 @@ const App = {
   init() {
       Transaction.all.forEach(DOM.addTransaction)
       
+      //cria o total dentro da tabela para poder ser gerado quando exportado
+      const tr = document.createElement('tr')
+      tr.innerHTML = `<td id='totalInvis'>Total</td><td id='totalInvis2'>${Utils.formatCurrency(Transaction.total())}</td>`;
+      tr.style.display = 'none';
+      tr.dataset.index = 'total';
+
+      DOM.transactionsContainer.appendChild(tr)
+
       DOM.updateBalance()
 
       Storage.set(Transaction.all)
@@ -214,3 +222,10 @@ const App = {
 }
 
 App.init()
+
+let button = document.querySelector("#button-excel")
+
+button.addEventListener("click", e => {
+  let table = document.querySelector("#data-table")
+  TableToExcel.convert(table)
+})
