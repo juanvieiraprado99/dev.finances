@@ -103,7 +103,8 @@ button:hover {
 }
 
 button#button-excel,
-button#button-dados {
+button#button-down,
+button#button-up {
     width: 50%;
     margin-left: 25%;
 }
